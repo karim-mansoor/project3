@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Plans</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    
+        <script type=text/javascript>  
+            function showAlert() 
+            {
+              alert ("Alert from javascript!");
+            }
+        </script>
+
+    </head>
+    <body class="w3-black">
+        
+        <!-- Icon Bar (Sidebar - hidden on small screens) -->
+        <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+            <!-- Avatar image in top left corner -->
+            <img src="14.jpeg" style="width:100%" height="99px">
+            <a href="Index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+                <i class="fa fa-home w3-xxlarge"></i>
+                <p>HOME</p>
+            </a>
+            <a href="About.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-user w3-xxlarge"></i>
+                <p>ABOUT</p>
+            </a>
+            <a href="Photos.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-eye w3-xxlarge"></i>
+                <p>PHOTOS</p>
+            </a>
+            <a href="Services.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-paper-plane w3-xxlarge"></i>
+                <p>SERVICES</p>
+            </a>
+            <a href="Contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-envelope w3-xxlarge"></i>
+                <p>CONTACT</p>
+            </a>
+            <a href="Planeer.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+                <i class="fa fa-user-circle w3-xxlarge"></i>
+                <p>Planeer</p>
+              </a>
+        </nav>
+
+        <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+            <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+                <a href="Index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+                <a href="About.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+                <a href="Photos.html" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+                <a href="Services.html" class="w3-bar-item w3-button" style="width:25% !important">SERVICES</a>
+                <a href="Contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+                <a href="Planeer.html" class="w3-bar-item w3-button" style="width:25% !important">Planeer</a>
+            </div>
+        </div>
+
+        <!-- Service Section -->
+
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey">Our Services
+            </h2>
+            <hr style="width:200px" class="w3-opacity">
+        <div>
+   
+        <form action="">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"style="width: 10cm;"required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"style="width: 10cm;"required><br>
+            <label for="contact">Contact method:</label><br>
+            <input type="text" id="contact" name="contact"style="width: 10cm;"required><br>
+            <br>
+
+            <label for="cars">Choose what you want:</label>
+            <br>
+            <select name="Services" id="Services">
+              <option value="Translation">Programming</option>
+              <option value="photography">Game Development</option>
+              <option value="Programming">Web Design</option>
+              <option value="Web Design">System Building</option>
+              <option value="Consultation">Consultation</option>
+            </select>
+            <br>
+            <label for="Explain">Explain</label><br>
+            <input type="text" name="Explain" id="Explain" style="width: 10cm;" required><br>
+            <label for="Checkbox">Is it Urgent?  </label><input type="checkbox" name="check" id="check"><br>
+            <br>
+            <label for="salary">Here is my prices, choose what is suitable for you</label><br>
+            <label for="1salary">50$</label> <input type="radio" name="1salary" id="1salary" >
+            <label for="2salary">100$</label> <input type="radio" name="2salary" id="2salary">
+            <label for="3salary">200$</label> <input type="radio" name="3salary" id="3salary">
+            <label for="4salary">500$</label> <input type="radio" name="4salary" id="4salary"><br>
+            <br>
+            <label for="massage">I wil reply witin 2 days, Do you agree?  </label>
+            <button onclick="showAlert()">√</button>
+            <br>
+            <br>
+            <input type="submit" value="submit"><br>
+        </form>
+
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <!-- End footer -->
+        </footer>
+
+    </body>
+</html>
